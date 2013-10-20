@@ -4,7 +4,7 @@
 		module="scala-echo-client_2.9.2"
 		revision="0.0.0"
 		status="integration"
-		publication="20131013181600"
+		publication="20131020123442"
 	>
 		<description>
 		Scala Echo Client

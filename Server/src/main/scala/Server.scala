@@ -6,41 +6,52 @@
  * To change this template use File | Settings | File Templates.
  */
 
-//import akka.actor._
 import java.net.{ServerSocket, Socket}
-import java.io._
+import java.io.{InputStreamReader, OutputStreamWriter, PrintWriter, BufferedReader}
 
-object Server extends App {
-  override def main(args: Array[String]) {
-    val server = new ServerSocket(8880)
+class Server(port: Int = 8889) {
+  var sockets = Map[Socket, String]()
+  var output: PrintWriter = _
+  var input: String = _
+
+  def run() {
+    val server = new ServerSocket(port)
     val socket = server.accept()
-    var sockets: Map[Socket, String] = Map()
-    run(socket)
+
+    output = new PrintWriter(new OutputStreamWriter(socket.getOutputStream))
+    input = new BufferedReader(new InputStreamReader(socket.getInputStream)).readLine()
+    chatHandler(socket)
   }
 
-  def run(socket: Socket) {
+  def chatHandler(socket: Socket) {
+    println("Client connected")
+    println(socket)
+    output.println("Welcome!")
+    output.flush()
     while (true) {
-      println("Client connected")
-    //    def message = (Thread.currentThread.getName() + "\n").getBytes
-      val input = new BufferedInputStream(socket.getInputStream)
-      if (input.startswith("!")) {
-        if (input[1:] == "name") {
-          val name = input[input.index(":")+1:]
-          sockets += (socket, name)
+      println(input)
+      if (input.substring(0) == "!") {
+        if (input.substring(1,5) == "name") {
+          val name = input.substring(input.indexOf(":"), input.length)
+          sockets += (socket -> name)
         }
       } else {
-        for ((key, value) <- sockets) {
-          socket.getOutputStream.write(input.getBytes)
-        }
+        sendAll(input)
       }
-      println("Input:" + input)
-    //    println(input)
+    }
+  }
+
+  def sendAll(message: String) {
+    for ((key, value) <- sockets) {
+      output.println(input.getBytes)
+      output.flush()
     }
   }
 }
-//
-//object Server extends App {
-//
-//    ActorSystem().actorOf(Props(new Server(socket)))
-//  }
-//}
+
+object Server extends App {
+  def apply() = {
+    val server = new Server()
+    server.run()
+  }
+}

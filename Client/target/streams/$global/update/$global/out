@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/p.e.-algorithms/Scala%20Chat%20Server/Client/}default-0042fb...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/code/Scala%20Chat%20Server/Client/}default-09068a...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: scala-echo-client#scala-echo-client_2.9.2;0.0.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -70,20 +70,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-echo-client#scala-echo-client_2.9.2;0.0.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-echo-client#scala-echo-client_2.9.2;0.0.0 [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\scala-echo-client\scala-echo-client_2.9.2\0.0.0\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\code\Scala Chat Server\Client\target\resolution-cache\scala-echo-client\scala-echo-client_2.9.2\0.0.0\resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 157ms :: artifacts dl 0ms[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 compile produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 runtime produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 test produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 provided produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 optional produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 compile-internal produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 runtime-internal produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 test-internal produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 plugin produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 sources produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 docs produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 pom produced in C:\p.e.-algorithms\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (157ms resolve - 0ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 141ms :: artifacts dl 0ms[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 compile produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 runtime produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 test produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 provided produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 optional produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 compile-internal produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 runtime-internal produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 test-internal produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 plugin produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 sources produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 docs produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for scala-echo-client#scala-echo-client_2.9.2;0.0.0 pom produced in C:\code\Scala Chat Server\Client\target\resolution-cache\reports\scala-echo-client-scala-echo-client_2.9.2-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (141ms resolve - 0ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

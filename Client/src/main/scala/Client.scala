@@ -7,23 +7,33 @@
  */
 
 import java.net.Socket
-import java.io._
+import java.io.{InputStreamReader, OutputStreamWriter, PrintWriter, BufferedReader}
 
-object Client extends App {
+class Client(host: String = "127.0.0.1", port: Int = 8889) {
+  var output: PrintWriter = _
+  var input: String = _
 
-  override def main (args: Array[String]) = run()
-
-  def run(host: String = "127.0.0.1", port: Int = 8880) {
+  def run() {
     val socket = new Socket(host, port)
-
-    handler(socket)
+    output = new PrintWriter(new OutputStreamWriter(socket.getOutputStream))
+    input = new BufferedReader(new InputStreamReader(socket.getInputStream)).readLine()
+    chatHandler(socket)
   }
 
-  def handler(socket: Socket) {
-    val output = socket.getOutputStream.write("Noob".getBytes)
-    val in = new BufferedReader(new InputStreamReader(socket.getInputStream))
-    println(output)
-    println(in.readLine)
+  def chatHandler(socket: Socket) {
+    val words = List("Hello", "World", "Muthafucka")
+    for (word <- words) {
+      output.println(word)
+      output.flush()
+      println(input)
+    }
     println("OK")
+  }
+}
+
+object Client extends App {
+  def apply() = {
+    val client = new Client
+    client.run()
   }
 }
